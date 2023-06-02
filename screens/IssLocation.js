@@ -24,7 +24,7 @@ export default class HomeScreen extends Component {
             })
         }).catch((erro) => {Alert.alert(erro.message)})
     }
-
+    
     render() {
         if(this.state.local !== {}){    
             return (
