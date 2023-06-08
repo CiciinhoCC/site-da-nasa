@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, SafeAreaView, StatusBar, Platform, StyleSheet, TouchableOpacity,
+import { Text, View, SafeAreaView, StatusBar, StyleSheet, TouchableOpacity,
 Image, ImageBackground} from 'react-native';
 import { StretchInY } from 'react-native-reanimated';
 
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     safeView: {
-        marginTop: Platform.OS === "android"? StatusBar.currentHeight : 0
+        marginTop: 5
     },
     viewTexto: {
         flex: 0.15,
